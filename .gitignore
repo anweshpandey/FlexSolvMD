@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary and backup files
+*.bak
+*.bak.*
+*~
+*.swp
+
+# Molecular simulation outputs
+*.gro
+*.tpr
+*.xtc
+*.trr
+*.edr
+*.cpt
+*.mdp~
+mdout.mdp
+# Input structures and generated parameter files should be reviewed
+# before committing; avoid publishing private research data.
+*.bak*

@@ -1,0 +1,10 @@
+installations:
+  "2024.5":
+    conda_env: gmx24.5
+    executable: /home/apandey/miniforge3/envs/gmx24.5/bin.AVX2_256/gmx
+  "2025.2":
+    conda_env: gmx25
+    executable: /home/apandey/miniforge3/envs/gmx25/bin.AVX2_256/gmx
+  "5.1.1":
+    conda_env: null
+    executable: /usr/local/gromacs/bin/gmx
